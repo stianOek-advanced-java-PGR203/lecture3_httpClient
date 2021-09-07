@@ -6,10 +6,14 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 public class HttpClient {
+
+
     public HttpClient(String host, int port, String requestTarget) {
 
     }
-    //request >
+
+
+                //request >
      //User-Agent UA---------------------------------O Origin
               //                              < Response
 
