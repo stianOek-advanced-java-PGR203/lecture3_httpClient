@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 public class HttpClient {
-    public HttpClient(String host, int port, String headerfield) {
+    public HttpClient(String host, int port, String requestTarget) {
 
     }
     //request >
@@ -29,5 +29,9 @@ public class HttpClient {
         while((c = in.read()) != -1) {
             System.out.print((char)c);
         }
+    }
+
+    public int getStatusCode() {
+        return 0;
     }
 }
